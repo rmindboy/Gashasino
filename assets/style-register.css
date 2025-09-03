@@ -159,3 +159,66 @@ footer {
     opacity: 0.8;
     cursor: pointer;
 }
+
+.form-container {
+    background-color: white;
+    padding: 50px; /* Aumenta el espaciado interno (sangría) */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    max-width: 400px;
+    width: 100%;
+    text-align: left; /* Alinea el texto a la izquierda */
+}
+.register-form label {
+    font-size: 1.2rem; /* Aumenta el tamaño de las etiquetas */
+    margin-bottom: 8px;
+    display: block;
+}
+.register-form input {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem; /* Aumenta el tamaño del texto en los campos */
+}
+.register-form button {
+    width: 100%;
+    padding: 12px;
+    background-color: #333;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.2rem; /* Aumenta el tamaño del texto del botón */
+    cursor: pointer;
+}
+.register-form button:hover {
+    background-color: #555;
+}
+.logo {
+    text-decoration: none;
+    color: #2ecc40; /* Mantén el color del logo */
+}
+
+/* Quitar subrayado del botón de registro */
+.auth-buttons .register {
+    text-decoration: none;
+    background: #444;
+    color: #fff;
+    border-radius: 5px;
+    padding: 7px 18px;
+    font-size: 1em;
+    display: inline-block;
+    text-align: center;
+    cursor: pointer;
+}
+
+.auth-buttons .register:hover {
+    background: #555;
+}
+.register-menu {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh; /* Ocupa toda la altura de la ventana */
+}
