@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blackjack</title>
+    <link rel="stylesheet" href="assets/style-blackjack.css">
+</head>
+<body>
+    <header>
+        <a href="mainmenu.html" class="logo">Ga$ha$ino</a> <!-- Enlace al logo -->
+        <nav>
+            <ul>
+                <li>Juegos</li>
+                <li>Aspectos</li>
+                <li>Comunidad</li>
+                <li>Tienda</li>
+                <li>Gachapon</li>
+            </ul>
+        </nav>
+        <div class="auth-buttons">
+            <button class="login">iniciar sesión</button>
+            <a href="Register.html" class="register">Registrarse</a> <!-- Enlace al botón de registro -->
+        </div>
+    </header>
+    <div class="blackjack-container">
+        <h1>Blackjack</h1>
+        <div class="game-area">
+            <div class="player-area">
+                <h2>Jugador</h2>
+                <div id="player-cards" class="cards"></div>
+                <p id="player-score">Puntuación: 0</p>
+            </div>
+            <div class="dealer-area">
+                <h2>Crupier</h2>
+                <div id="dealer-cards" class="cards"></div>
+                <p id="dealer-score">Puntuación: 0</p>
+            </div>
+        </div>
+        <div class="controls">
+            <button id="hit-btn">Pedir Carta</button>
+            <button id="stand-btn">Plantarse</button>
+            <button id="restart-btn">Reiniciar</button>
+        </div>
+        <p id="result-message"></p>
+    </div>
+    <script src="blackjack.js"></script>
+</body>
+</html>

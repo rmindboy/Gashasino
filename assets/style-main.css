@@ -174,3 +174,14 @@ footer {
     text-align: center;
     cursor: pointer;
 }
+.game-card-link {
+    text-decoration: none; /* Elimina el subrayado del enlace */
+    color: inherit; /* Mantiene el color del texto */
+    display: block; /* Asegura que el enlace abarque todo el contenedor */
+}
+
+.game-card-link:hover .game-card {
+    box-shadow: 0 4px 12px rgba(44,204,64,0.2);
+    transform: translateY(-20px);
+    transition: all 0.3s ease;
+}
