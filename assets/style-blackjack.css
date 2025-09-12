@@ -172,3 +172,7 @@ nav ul li {
 .card {
     animation: slideIn 0.3s ease-out; /* Aplica la animación al mostrar una carta */
 }
+.juego-btn{
+    text-decoration: none;
+    color: white;
+}
