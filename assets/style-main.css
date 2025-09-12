@@ -193,7 +193,7 @@ footer {
     max-width: 40%; /* Ajusta el tamaño relativo al ancho de la pantalla */
     height: auto;
     object-fit: cover;
-    opacity: 0.9;
+    opacity: 0.85;
 }
 
 /* Imagen a la izquierda */
