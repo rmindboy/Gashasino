@@ -2,7 +2,7 @@ body {
     margin: 0;
     font-family: 'Segoe UI', Arial, sans-serif;
     background: linear-gradient(to bottom, #1a1a1a, #000000);
-    background: #9b29c950;
+    background: #ecd5f550;
     color: #222;
 }
 
@@ -194,7 +194,6 @@ footer {
     height: auto;
     object-fit: cover;
     opacity: 0.9;
-    transition: transform 0.3s ease, opacity 0.3s ease;
 }
 
 /* Imagen a la izquierda */
@@ -214,7 +213,9 @@ footer {
 /* Efecto hover */
 .chica-img:hover {
     transform: translateY(-50%) scale(1.05); /* Aumenta ligeramente el tamaño */
-    opacity: 1; /* Aumenta la opacidad */
+    opacity: 1;
+    max-width: 50%;
+    transition: max-width 2s, transform 2s, opacity 1.5s;  /* Aumenta la opacidad */
 }
 
 /* Ajuste del contenedor principal */
