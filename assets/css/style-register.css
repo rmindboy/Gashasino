@@ -1,10 +1,12 @@
+/* Fondo con transparencia */
 body {
     margin: 0;
     font-family: 'Segoe UI', Arial, sans-serif;
     background: #ecd5f550;
     color: #222;
-}
+} 
 
+/* Espaciado interno del header */
 header {
     display: flex;
     align-items: center;
@@ -12,34 +14,39 @@ header {
     background: #222;
     color: #fff;
     padding: 10px 40px;
-}
+} 
 
+/* Estilo del logo */
 .logo {
     font-family: 'Brush Script MT', cursive;
     font-size: 2.2em;
     color: #2ecc40;
     font-weight: bold;
     letter-spacing: 2px;
-}
+} 
 
+/* Estilo de la lista de navegación */
 nav ul {
     display: flex;
     gap: 25px;
     list-style: none;
     margin: 0;
     padding: 0;
-}
+} 
 
+/* Estilo de los elementos de la lista */
 nav ul li {
     font-size: 1.1em;
     cursor: pointer;
-}
+} 
 
+/* Estilo del contenedor de los botones de autenticación */
 .auth-buttons {
     display: flex;
     gap: 10px;
-}
+} 
 
+/* Estilo del botón de inicio de sesión */
 .auth-buttons button {
     background: #fff;
     color: #222;
@@ -49,14 +56,15 @@ nav ul li {
     font-size: 1em;
     cursor: pointer;
     margin-left: 5px;
-}
+} 
 
+/* Estilo del botón de registro */
 .auth-buttons .register {
     background: #444;
     color: #fff;
-}
+} 
 
-
+/* Estilo del contenedor del formulario */
 .form-container {
     background-color: white;
     padding: 50px; /* Aumenta el espaciado interno (sangría) */
@@ -65,12 +73,16 @@ nav ul li {
     max-width: 400px;
     width: 100%;
     text-align: left; /* Alinea el texto a la izquierda */
-}
+} 
+
+/* Estilo del formulario de registro */
 .register-form label {
     font-size: 1.2rem; /* Aumenta el tamaño de las etiquetas */
     margin-bottom: 8px;
     display: block;
 }
+
+/* Estilo de los campos de entrada y el botón */
 .register-form input {
     width: 100%;
     padding: 12px;
@@ -79,6 +91,8 @@ nav ul li {
     border-radius: 5px;
     font-size: 1rem; /* Aumenta el tamaño del texto en los campos */
 }
+
+/* Estilo del botón de envío */
 .register-form button {
     width: 100%;
     padding: 12px;
@@ -89,9 +103,13 @@ nav ul li {
     font-size: 1.2rem; /* Aumenta el tamaño del texto del botón */
     cursor: pointer;
 }
+
+/* Efecto hover para el botón de envío */
 .register-form button:hover {
     background-color: #555;
 }
+
+/* Quitar subrayado del logo */
 .logo {
     text-decoration: none;
     color: #2ecc40; /* Mantén el color del logo */
@@ -110,15 +128,20 @@ nav ul li {
     cursor: pointer;
 }
 
+/* Efecto hover para el botón de registro */
 .auth-buttons .register:hover {
     background: #555;
 }
+
+/* Centrar el formulario en la pantalla */
 .register-menu {
     display: flex;
     align-items: center;
     justify-content: center;
     height: 100vh; /* Ocupa toda la altura de la ventana */
 }
+
+/* Estilo del botón de juegos */
 .juego-btn{
     text-decoration: none;
     color: white;

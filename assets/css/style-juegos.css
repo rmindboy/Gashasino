@@ -1,3 +1,4 @@
+/* Estilos generales */
 body {
     margin: 0;
     font-family: 'Segoe UI', Arial, sans-serif;
@@ -5,6 +6,7 @@ body {
     color: #222;
 }
 
+/* Estilo del encabezado */
 header {
     display: flex;
     align-items: center;
@@ -14,6 +16,7 @@ header {
     padding: 10px 40px;
 }
 
+/* Estilo del logo */
 .logo {
     font-family: 'Brush Script MT', cursive;
     font-size: 2.2em;
@@ -23,10 +26,13 @@ header {
     text-decoration: none;
 }
 
+/* Estilo del botón de juego */
 .juego-btn{
-    text-decoration: none;
+    text-decoration: none; /* Elimina el subrayado del enlace */
     color: white;
 }
+
+/* Estilo de la navegación */
 nav ul {
     display: flex;
     gap: 25px;
@@ -35,16 +41,19 @@ nav ul {
     padding: 0;
 }
 
+/* Estilo de los enlaces de navegación */
 nav ul li {
     font-size: 1.1em;
     cursor: pointer;
 }
 
+/* Estilo de los botones de autenticación */
 .auth-buttons {
     display: flex;
     gap: 10px;
 }
 
+/* Estilo de los botones */
 .auth-buttons button {
     background: #fff;
     color: #222;
@@ -56,11 +65,13 @@ nav ul li {
     margin-left: 5px;
 }
 
+/* Estilo específico para el botón de registro */
 .auth-buttons .register {
     background: #444;
     color: #fff;
 }
 
+/* Estilos adicionales del botón de registro */
 .auth-buttons .register {
     text-decoration: none;
     background: #444;
@@ -72,6 +83,8 @@ nav ul li {
     text-align: center;
     cursor: pointer;
 }
+
+/* Estilos del contenedor principal */
 .main-title {
     text-align: center;
     font-family: 'Brush Script MT', cursive;
@@ -79,6 +92,8 @@ nav ul li {
     margin: 30px 0 20px 0;
     font-weight: normal;
 }
+
+/* Estilos del contenedor de tarjetas */
 .cards-container {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
@@ -87,6 +102,8 @@ nav ul li {
     margin: 0 auto 40px auto;
     padding: 0 20px;
 }
+
+/* Estilos de las tarjetas de juego */
 .game-card {
     display: flex;
     flex-direction: column;
@@ -106,6 +123,7 @@ nav ul li {
     overflow: hidden;
 }
 
+/* Estilos de la imagen del juego */
 .game-img {
     display: block;
     margin: 0 auto;
@@ -118,6 +136,7 @@ nav ul li {
     margin-bottom: 12px;
 }
 
+/* Estilos de la información del juego */
 .game-info {
     width: 100%;
     text-align: center;
@@ -127,22 +146,26 @@ nav ul li {
     justify-content: flex-start;
 }
 
+/* Estilos del título del juego */
 .game-info h2 {
     font-size: 1.3em;
     margin: 0 0 6px 0;
 }
 
+/* Estilos del subtítulo del juego */
 .game-subtitle {
     font-size: 1em;
     margin-bottom: 6px;
 }
 
+/* Estilos de la descripción del juego */
 .game-desc {
     font-size: 0.98em;
     margin-top: 6px;
     line-height: 1.5;
 }
 
+/* Estilos del pie de página */
 footer {
     background: #f5f5f5;
     border-top: 1px solid #ccc;
@@ -150,6 +173,7 @@ footer {
     margin-top: 40px;
 }
 
+/* Estilos de la navegación del pie de página */
 .footer-nav {
     display: flex;
     justify-content: space-between;
@@ -159,6 +183,7 @@ footer {
     color: #222;
 }
 
+/* Estilos de los enlaces del pie de página */
 .footer-links {
     display: flex;
     justify-content: space-around;
@@ -167,12 +192,14 @@ footer {
     color: #222;
 }
 
+/* Estilos de cada columna de enlaces */
 .footer-links div {
     display: flex;
     flex-direction: column;
     gap: 4px;
 }
 
+/* Estilos de los enlaces individuales */
 .footer-social {
     display: flex;
     gap: 18px;
@@ -181,18 +208,22 @@ footer {
     padding: 10px 40px;
 }
 
+/* Estilos de las imágenes de redes sociales */
 .footer-social img {
     width: 28px;
     height: 28px;
     opacity: 0.8;
     cursor: pointer;
 }
+
+/* Estilos del enlace que envuelve la tarjeta de juego */
 .game-card-link {
     text-decoration: none; /* Elimina el subrayado del enlace */
     color: inherit; /* Mantiene el color del texto */
     display: block; /* Asegura que el enlace abarque todo el contenedor */
 }
 
+/* Efecto hover para la tarjeta de juego */
 .game-card-link:hover .game-card {
     box-shadow: 0 4px 12px rgba(44,204,64,0.2);
     transform: translateY(-20px);

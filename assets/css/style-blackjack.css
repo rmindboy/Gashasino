@@ -1,3 +1,4 @@
+/* Estilos generales */
 body {
     font-family: 'Arial', sans-serif;
     background-color: #004d25; /* Fondo verde oscuro */
@@ -7,6 +8,7 @@ body {
     padding: 0;
 }
 
+/* Estilo del contenedor principal del juego */
 .blackjack-container {
     max-width: 900px;
     margin: 50px auto;
@@ -17,6 +19,7 @@ body {
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
 }
 
+/* Estilo del título del juego */
 h1 {
     margin-bottom: 20px;
     font-size: 36px;
@@ -24,6 +27,7 @@ h1 {
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
 }
 
+/* Estilos del área de juego */
 .game-area {
     display: flex;
     justify-content: space-around;
@@ -34,10 +38,12 @@ h1 {
     background-color: rgba(0, 0, 0, 0.2); /* Fondo semitransparente */
 }
 
+/* Estilos de las áreas del jugador y del dealer */
 .player-area, .dealer-area {
     width: 45%;
 }
 
+/* Estilos de los títulos de las áreas */
 .cards {
     display: flex;
     justify-content: center;
@@ -45,6 +51,7 @@ h1 {
     margin: 10px 0;
 }
 
+/* Estilos de las cartas */
 .cards div {
     width: 70px;
     height: 100px;
@@ -60,10 +67,12 @@ h1 {
     border: 2px solid #d4af37; /* Borde dorado */
 }
 
+/* Estilos de los controles */
 .controls {
     margin-top: 20px;
 }
 
+/* Estilos de los botones */
 .controls button {
     margin: 10px;
     padding: 12px 25px;
@@ -77,11 +86,13 @@ h1 {
     transition: transform 0.2s, background-color 0.3s;
 }
 
+/* Efecto hover para los botones */
 .controls button:hover {
     background-color: #ffcc00;
     transform: scale(1.1);
 }
 
+/* Estilos del mensaje de resultado */
 #result-message {
     font-size: 24px;
     font-weight: bold;
@@ -89,10 +100,14 @@ h1 {
     color: #ffd700; /* Dorado */
     text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.7);
 }
+
+/* Estilos del logo de la pagina*/
 .logo {
-    text-decoration: none;
+    text-decoration: none; /* Elimina el subrayado del enlace */
     color: #2ecc40; /* Mantén el color del logo */
 }
+
+/* Estilos de los botones de autenticación */
 .auth-buttons .register {
     text-decoration: none;
     background: #444;
@@ -105,7 +120,7 @@ h1 {
     cursor: pointer;
 }
 
-
+/* Estilo del encabezado */
 header {
     display: flex;
     align-items: center;
@@ -115,6 +130,7 @@ header {
     padding: 10px 40px;
 }
 
+/* Estilo del logo */
 .logo {
     font-family: 'Brush Script MT', cursive;
     font-size: 2.2em;
@@ -123,6 +139,7 @@ header {
     letter-spacing: 2px;
 }
 
+/* Estilo de la navegación */
 nav ul {
     display: flex;
     gap: 25px;
@@ -131,16 +148,19 @@ nav ul {
     padding: 0;
 }
 
+/* Estilo de los enlaces de navegación */
 nav ul li {
     font-size: 1.1em;
     cursor: pointer;
 }
 
+/* Estilo de los botones de autenticación */
 .auth-buttons {
     display: flex;
     gap: 10px;
 }
 
+/* Estilo de los botones */
 .auth-buttons button {
     background: #fff;
     color: #222;
@@ -152,6 +172,7 @@ nav ul li {
     margin-left: 5px;
 }
 
+/* Estilo del botón de registro */
 .auth-buttons .register {
     background: #444;
     color: #fff;
@@ -169,9 +190,12 @@ nav ul li {
     }
 }
 
+/* Aplica la animación a las cartas */
 .card {
     animation: slideIn 0.3s ease-out; /* Aplica la animación al mostrar una carta */
 }
+
+/* Estilo del botón de juego */
 .juego-btn{
     text-decoration: none;
     color: white;

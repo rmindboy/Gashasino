@@ -1,3 +1,4 @@
+/* Estilos generales */
 body {
     margin: 0;
     font-family: 'Segoe UI', Arial, sans-serif;
@@ -6,6 +7,7 @@ body {
     color: #222;
 }
 
+/* Estilo del encabezado */
 header {
     display: flex;
     align-items: center;
@@ -15,6 +17,7 @@ header {
     padding: 10px 40px;
 }
 
+/* Estilo del logo */
 .logo {
     font-family: 'Brush Script MT', cursive;
     font-size: 2.2em;
@@ -23,6 +26,7 @@ header {
     letter-spacing: 2px;
 }
 
+/* Estilo de la navegación */
 nav ul {
     display: flex;
     gap: 25px;
@@ -31,16 +35,19 @@ nav ul {
     padding: 0;
 }
 
+/* Estilo de los enlaces de navegación */
 nav ul li {
     font-size: 1.1em;
     cursor: pointer;
 }
 
+/* Estilo de los botones de autenticación */
 .auth-buttons {
     display: flex;
     gap: 10px;
 }
 
+/* Estilo de los botones */
 .auth-buttons button {
     background: #fff;
     color: #222;
@@ -52,11 +59,13 @@ nav ul li {
     margin-left: 5px;
 }
 
+/* Estilo específico para el botón de registro */
 .auth-buttons .register {
     background: #444;
     color: #fff;
 }
 
+/* Estilo del banner */
 .banner img {
     width: 100%;
     height: 120px;
@@ -64,6 +73,7 @@ nav ul li {
     display: block;
 }
 
+/* Estilo del título principal */
 .main-title {
     text-align: center;
     font-family: 'Brush Script MT', cursive;
@@ -72,6 +82,7 @@ nav ul li {
     font-weight: normal;
 }
 
+/* Estilo de las tarjetas de juego */
 .game-card {
     display: flex;
     align-items: flex-start;
@@ -85,6 +96,7 @@ nav ul li {
     box-shadow: 0 2px 8px rgba(44,204,64,0.08);
 }
 
+/* Estilo de la imagen del juego */
 .game-img {
     width: 320px;
     height: 220px;
@@ -93,16 +105,19 @@ nav ul li {
     box-shadow: 0 2px 8px rgba(0,0,0,0.12);
 }
 
+/* Estilo de la información del juego */
 .game-info {
     flex: 1;
 }
 
+/* Estilo del título del juego */
 .game-info h2 {
     margin: 0;
     font-size: 1.7em;
     font-weight: bold;
 }
 
+/* Estilo del subtítulo del juego */
 .game-subtitle {
     display: block;
     font-size: 1.2em;
@@ -110,12 +125,14 @@ nav ul li {
     margin-bottom: 10px;
 }
 
+/* Estilo de la descripción del juego */
 .game-desc {
     font-size: 1.08em;
     margin-top: 10px;
     line-height: 1.6;
 }
 
+/* Estilo del pie de página */
 footer {
     background: #f5f5f5;
     border-top: 1px solid #ccc;
@@ -123,6 +140,7 @@ footer {
     margin-top: 40px;
 }
 
+/* Estilo de la navegación del pie de página */
 .footer-nav {
     display: flex;
     justify-content: space-between;
@@ -132,6 +150,7 @@ footer {
     color: #222;
 }
 
+/* Estilo de los enlaces del pie de página */
 .footer-links {
     display: flex;
     justify-content: space-around;
@@ -140,12 +159,14 @@ footer {
     color: #222;
 }
 
+/* Estilo de cada columna de enlaces */
 .footer-links div {
     display: flex;
     flex-direction: column;
     gap: 4px;
 }
 
+/* Estilo de los enlaces individuales */
 .footer-social {
     display: flex;
     gap: 18px;
@@ -154,16 +175,21 @@ footer {
     padding: 10px 40px;
 }
 
+/* Estilo de los iconos sociales */
 .footer-social img {
     width: 28px;
     height: 28px;
     opacity: 0.8;
     cursor: pointer;
 }
+
+/* Estilos adicionales del logo */
 .logo {
     text-decoration: none;
     color: #2ecc40; /* Mantén el color del logo */
 }
+
+/* Estilos adicionales de los botones de autenticación */
 .auth-buttons .register {
     text-decoration: none;
     background: #444;
@@ -175,19 +201,22 @@ footer {
     text-align: center;
     cursor: pointer;
 }
+
+/* Estilos para los enlaces de las tarjetas de juego */
 .game-card-link {
     text-decoration: none; /* Elimina el subrayado del enlace */
     color: inherit; /* Mantiene el color del texto */
     display: block; /* Asegura que el enlace abarque todo el contenedor */
 }
 
+/* Efecto hover para las tarjetas de juego */
 .game-card-link:hover .game-card {
     box-shadow: 0 4px 12px rgba(44,204,64,0.2);
     transform: translateY(-20px);
     transition: all 0.3s ease;
 }
 
-/* Ajuste de las imágenes */
+/* Ajuste de las imágenes decorativas */
 .chica-img {
     position: absolute;
     max-width: 40%; /* Ajusta el tamaño relativo al ancho de la pantalla */
